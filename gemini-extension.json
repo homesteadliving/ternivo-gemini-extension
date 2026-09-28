@@ -1,0 +1,14 @@
+{
+  "name": "ternivo-gemini-extension",
+  "version": "1.0.0",
+  "description": "Ternivo Connect for Gemini CLI: authenticated social-delivery tools with connection health, preflight, delivery verification, retries, diagnostics, analytics, inbox, listening and calendar workflows.",
+  "mcpServers": {
+    "ternivo": {
+      "url": "https://ternivo.app/mcp",
+      "type": "http",
+      "timeout": 45000,
+      "description": "Ternivo Connect remote MCP server. Customer authorization is handled through Ternivo OAuth; social-provider credentials remain server-side."
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
